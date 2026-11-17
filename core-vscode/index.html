@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Core</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero" id="top">
+  <nav class="nav wrap" aria-label="Principal">
+    <ul>
+      <li><a href="#experiencia" data-go>Experiência</a></li>
+      <li><a href="#servicos" data-go>Serviços</a></li>
+      <li><a href="#planos" data-go>Soluções</a></li>
+      <li><a href="#contato" data-go>Contato</a></li>
+    </ul>
+    <a class="brand" href="#top" data-go aria-label="Core"><img src="assets/image-03.png" alt="Core"></a>
+    <a class="cta" href="#planos" data-go><span class="dot"></span>Fale com a gente</a>
+    <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+  </nav>
+
+  <div class="hero-top wrap">
+    <div class="words">
+      <h1 class="word">Criar.<small>Design sob medida para a sua marca.</small></h1>
+      <h1 class="word silver">Construir.<small style="-webkit-text-fill-color:var(--ice)">Código limpo, rápido e pronto para ser encontrado.</small></h1>
+      <h1 class="word">Converter.<small>Cada detalhe pensado para gerar contato e venda.</small></h1>
+    </div>
+  </div>
+
+  <div class="hero-bottom wrap">
+    <div class="stat-card">
+      <img class="mark" src="assets/image-04.png" alt="">
+      <h3>Seu próximo<br>projeto</h3>
+      <div class="orb" role="img" aria-label="Nuvens"></div>
+      <div class="stat-row">
+        <div><b>20+</b>sites no ar</div>
+        <div style="text-align:right"><b>4.9</b>avaliações</div>
+      </div>
+    </div>
+    <div class="byline"><b>Studio Core</b>Design, código e performance<br>Sites, landing pages e sistemas<span class="sig">Core</span></div>
+    <a class="btn-line" href="https://wa.me/5571999999999" data-wa="plain">Solicitar orçamento <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5 4h7v7"/></svg></a>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="marq"></div></div>
+
+<section class="experience" id="experiencia" aria-label="Experiência Core">
+  <video id="vid" muted playsinline preload="auto" poster="assets/image-05.jpg"><source src="assets/video-06.mp4" type="video/mp4"><source src="assets/video-07.webm" type="video/webm"><source data-m="1" src="assets/video-08.mp4" type="video/mp4"><source data-m="1" src="assets/video-09.webm" type="video/webm"></video>
+  <canvas id="vfade" class="vfade" aria-hidden="true"></canvas>
+  <p class="kicker">Do briefing ao deploy, trabalhamos com os melhores para elevar a sua marca.</p>
+  <div class="exp-body">
+    <div class="exp-top"><img class="mark" src="assets/image-04.png" alt=""><h2>Sinta o verdadeiro poder de um site bem feito</h2></div>
+    <div class="exp-bottom"><p>Rápido, claro e feito para vender. Seja uma landing page para uma campanha, um site institucional ou uma plataforma completa, entregamos tudo pronto para o seu próximo passo.</p><a class="btn-line" href="https://wa.me/5571999999999" data-wa="plain">Solicitar orçamento <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5 4h7v7"/></svg></a></div>
+  </div>
+  <button class="replay" id="replay" type="button"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 8a5.5 5.5 0 1 0 1.8-4.1M2.5 2.5v3h3"/></svg>Rever</button>
+</section>
+
+<section class="services" id="servicos">
+  <div class="sec-head wrap">
+    <h2 class="label" style="margin:0"><small>Serviços</small>Sites que vendem</h2>
+    <span class="rule"></span>
+    <div class="swipe"><span>Arraste ou use as setas</span><b class="count" id="count">01 / 05</b></div>
+  </div>
+
+  <div class="rail-wrap">
+  <div class="rail" id="rail" tabindex="0" aria-label="Tipos de site">
+    <article class="svc svc-shot" data-svc="0" role="link" tabindex="0" aria-label="Landing Pages: ver página completa" style="--img:url(assets/image-10.jpg)">
+      <img class="mark" src="assets/image-04.png" alt="">
+      <div class="acts"><a class="book" href="https://wa.me/5571999999999">Pedir orçamento <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12L12 4M5 4h7v7"/></svg></a></div>
+      <div class="chips"><div class="chip"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6"/><path d="M8 4.5V8l2.5 1.5"/></svg>10 dias</div><div class="chip"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12l4-4 3 3 5-6"/></svg>CRO</div></div>
+      <h3>Landing Pages</h3>
+      <div class="nums"><b>320+</b><span>páginas no ar</span><b>3,4x</b><span>mais contatos</span></div>
+      <span class="tag">Core Studio</span>
+    </article>
+
+    <article class="svc svc-shot" data-svc="1" role="link" tabindex="0" aria-label="Sites Institucionais: ver página completa" style="--img:url(assets/image-11.jpg)">
+      <img class="mark" src="assets/image-04.png" alt="">
+      <div class="acts"><a class="book" href="https://wa.me/5571999999999">Pedir orçamento <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12L12 4M5 4h7v7"/></svg></a></div>
+      <div class="chips"><div class="chip"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6"/><path d="M8 4.5V8l2.5 1.5"/></svg>15 dias</div><div class="chip"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5L14 14"/></svg>SEO</div></div>
+      <h3>Sites Institucionais</h3>
+      <div class="nums"><b>180+</b><span>empresas atendidas</span><b>98</b><span>nota de performance</span></div>
+      <span class="tag">Core Studio</span>
+    </article>
+
+    <article class="svc svc-shot" data-svc="2" role="link" tabindex="0" aria-label="E-commerce: ver página completa" style="--img:url(assets/image-12.jpg)">
+      <img class="mark" src="assets/image-04.png" alt="">
+      <div class="acts"><a class="book" href="https://wa.me/5571999999999">Pedir orçamento <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12L12 4M5 4h7v7"/></svg></a></div>
+      <div class="chips"><div class="chip"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6"/><path d="M8 4.5V8l2.5 1.5"/></svg>30 dias</div><div class="chip"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 3h2l1.5 7h7L14 5H5"/><circle cx="6.5" cy="13" r="1"/><circle cx="12" cy="13" r="1"/></svg>Pix</div></div>
+      <h3>E-commerce</h3>
+      <div class="nums"><b>45+</b><span>lojas virtuais</span><b>24h</b><span>suporte na virada</span></div>
+      <span class="tag">Core Studio</span>
+    </article>
+
+    <article class="svc svc-shot" data-svc="3" role="link" tabindex="0" aria-label="Sistemas e Web Apps: ver página completa" style="--img:url(assets/image-13.jpg)">
+      <img class="mark" src="assets/image-04.png" alt="">
+      <div class="acts"><a class="book" href="https://wa.me/5571999999999">Pedir orçamento <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12L12 4M5 4h7v7"/></svg></a></div>
+      <div class="chips"><div class="chip"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6"/><path d="M8 4.5V8l2.5 1.5"/></svg>45 dias</div><div class="chip"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 5L2 8l3 3M11 5l3 3-3 3M9.5 3l-3 10"/></svg>API</div></div>
+      <h3>Sistemas &amp; Web Apps</h3>
+      <div class="nums"><b>30+</b><span>plataformas</span><b>99,9%</b><span>de disponibilidade</span></div>
+      <span class="tag">Core Studio</span>
+    </article>
+
+    <article class="svc svc-shot" data-svc="4" role="link" tabindex="0" aria-label="Portfólios: ver página completa" style="--img:url(assets/image-14.jpg)">
+      <img class="mark" src="assets/image-04.png" alt="">
+      <div class="acts"><a class="book" href="https://wa.me/5571999999999">Pedir orçamento <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12L12 4M5 4h7v7"/></svg></a></div>
+      <div class="chips"><div class="chip"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6"/><path d="M8 4.5V8l2.5 1.5"/></svg>10 dias</div><div class="chip"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="3" width="12" height="10" rx="2"/><path d="M2 7h12"/></svg>Cases</div></div>
+      <h3>Portfólios</h3>
+      <div class="nums"><b>90+</b><span>profissionais</span><b>5 min</b><span>para atualizar sozinho</span></div>
+      <span class="tag">Core Studio</span>
+    </article>
+  </div>
+    <button class="navbtn prev" id="prev" type="button" aria-label="Serviço anterior"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 8H3M7 4L3 8l4 4"/></svg></button>
+    <button class="navbtn next" id="next" type="button" aria-label="Próximo serviço"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
+  </div>
+
+  <div class="sec-foot wrap"><span class="rule"></span><p>Feito para converter</p></div>
+</section>
+
+<section class="stage" id="planos" aria-label="Soluções">
+  <div class="bg" id="stagebg"></div>
+  <div class="stage-top wrap">
+    <span class="pill">O que entregamos <i></i></span>
+    <span class="plan-name" id="planName">Landing Pages</span>
+    <span class="tag"><img src="assets/image-04.png" alt="">Core Studio</span>
+  </div>
+
+  <div class="wrap"><div class="big"><span>Leve</span><span>seu</span><span>negócio</span><span>online</span></div></div>
+<div class="stage-bottom wrap">
+    <div class="plan-info">
+      <div class="plan-card" id="planCard" aria-live="polite"></div>
+      <a class="btn-line" id="planWa" href="https://wa.me/5571999999999" data-wa>Solicitar orçamento <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12L12 4M5 4h7v7"/></svg></a>
+    </div>
+    <div class="thumbs-wrap">
+      <div class="sp-slot"><figure class="site-preview" id="ecPreview"><div class="sp-bar"><i></i><i></i><i></i><span>Sculp</span></div><div class="sp-body"><img src="assets/image-15.jpg" alt="Loja virtual Sculp"></div><figcaption>Exemplo de loja virtual feita pela Core</figcaption></figure><figure class="site-preview" id="lpPreview"><div class="sp-bar"><i></i><i></i><i></i><span>Boteco do Tico</span></div><div class="sp-body"><img src="assets/image-16.jpg" alt="Landing page Boteco do Tico"></div><figcaption>Exemplo de landing page feita pela Core</figcaption></figure><figure class="site-preview" id="sitePreview"><div class="sp-bar"><i></i><i></i><i></i><span>Core Empresas</span></div><div class="sp-body"><img src="assets/image-17.jpg" alt="Exemplo de site institucional da Core Empresas"></div><figcaption>Exemplo de site institucional feito pela Core</figcaption></figure></div>
+      <div class="thumbs" id="thumbs" role="group" aria-label="Soluções">
+        <button class="thumb" type="button" data-plan="0" data-name="Landing" aria-label="Landing" style="--timg:url(assets/image-18.jpg)" aria-pressed="true"></button>
+        <button class="thumb" type="button" data-plan="1" data-name="Sites" aria-label="Sites" style="--timg:url(assets/image-19.jpg)" aria-pressed="false"></button>
+        <button class="thumb" type="button" data-plan="2" data-name="Loja" aria-label="Loja" style="--timg:url(assets/image-20.jpg)" aria-pressed="false"></button>
+        <button class="thumb" type="button" data-plan="3" data-name="Sistemas" aria-label="Sistemas" style="--timg:url(assets/image-21.jpg)" aria-pressed="false"></button>
+        <button class="thumb" type="button" data-plan="4" data-name="Portfólio" aria-label="Portfólio" style="--timg:url(assets/image-22.jpg)" aria-pressed="false"></button>
+      </div>
+      <small>Toque para ver o que cada solução inclui</small>
+    </div>
+  </div>
+</section>
+
+<footer id="contato">
+  <div class="foot wrap">
+    <img src="assets/image-03.png" alt="Core">
+    <nav><a href="#experiencia" data-go>Experiência</a><a href="#servicos" data-go>Serviços</a><a href="#planos" data-go>Soluções</a><span>hello.core@outlook.com</span></nav>
+    <span>&copy; 2026 Core. Todos os direitos reservados.</span>
+  </div>
+</footer>
+
+<div id="detail" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
