@@ -1,6 +1,6 @@
 /* ---- WhatsApp ---- */
-/* TROQUE pelo número real: 55 + DDD + número, só dígitos (ex.: 5571999999999) */
-var WA_NUMBER='5571999999999';
+/* TROQUE pelo número real: 55 + DDD + número, só dígitos (ex.: 5571996306234) */
+var WA_NUMBER='5571996306234';
 var WA_NAMES=['Landing Pages','Sites Institucionais','E-commerce','Sistemas & Web Apps','Portfólios'];
 function waLink(servico){
   return 'https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent('Olá! Gostaria de solicitar um orçamento'+(servico?' de '+servico:' de site')+'.');
